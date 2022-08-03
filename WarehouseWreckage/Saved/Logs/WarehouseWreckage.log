@@ -2640,3 +2640,21 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.03-14.41.38:033][408]AssetCheck: New page: Asset Save: Main
 [2022.08.03-14.41.38:033][408]LogContentValidation: Display: Validating World /Game/Main.Main
 [2022.08.03-14.41.38:571][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.08.03-14.47.01:170][500]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.03-14.47.01:170][500]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.03-14.47.31:381][965]BlueprintLog: New page: Collapse to Function
+[2022.08.03-14.47.41:924][677]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.03-14.47.41:924][677]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.03-14.49.41:018][978]BlueprintLog: New page: Compile Main
+[2022.08.03-14.49.41:059][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.03-14.49.43:733][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.03-14.49.43:758][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.08.03-14.49.43:784][271]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.03-14.49.43:784][271]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main3B82E8984173D1D8DA60DCB849A76B28.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.03-14.49.43:787][271]LogFileHelpers: No new changes to save!
+[2022.08.03-14.49.43:787][271]LogFileHelpers: Saving map 'Main' took 0.055
+[2022.08.03-14.49.43:795][271]AssetCheck: New page: Asset Save: Main
+[2022.08.03-14.49.43:795][271]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.03-14.51.46:271][338]BlueprintLog: New page: Collapse to Function
+[2022.08.03-14.52.11:253][253]BlueprintLog: New page: Collapse to Function
+[2022.08.03-14.52.51:987][ 86]BlueprintLog: New page: Collapse to Function
