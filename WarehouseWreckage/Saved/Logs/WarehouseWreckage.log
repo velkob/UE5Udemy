@@ -1185,3 +1185,132 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.03-12.23.10:038][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2022.08.03-12.23.10:043][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2022.08.03-12.23.10:094][450]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: ================================================
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Total job queries 4230, among them cache hits 38 (0.90%)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Tracking 2700 distinct input hashes that result in 832 distinct outputs (30.81%)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: RAM used: 2.37 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.07%
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Shaders Compiled: 4192
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Jobs assigned 2800, completed 2700 (96.43%)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Time job spent in pending queue: average 258.08 s, longest 520.19 s
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Job execution time: average 18.03 s, max 26.57 s
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Job life time (pending + execution): average 266.82 s, max 520.19
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 520.37 s
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Jobs were issued in 388 batches (only local compilation was used), average 7.22 jobs/batch
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Average processing rate: 5.19 jobs/sec
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Effective parallelization: 8.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   75 times, average 2.63 sec, max 3.23 sec, min 1.48 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled   33 times, average 2.58 sec, max 3.11 sec, min 2.33 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   31 times, average 2.49 sec, max 3.01 sec, min 2.28 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled   30 times, average 2.46 sec, max 2.76 sec, min 2.19 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled   29 times, average 2.45 sec, max 2.93 sec, min 2.13 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.49% of total time (compiled   75 times, average 2.63 sec, max 3.23 sec, min 1.48 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 3.72% of total time (compiled   78 times, average 2.10 sec, max 3.19 sec, min 1.07 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 3.72% of total time (compiled   73 times, average 2.24 sec, max 2.95 sec, min 1.80 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.61% of total time (compiled   69 times, average 2.30 sec, max 3.01 sec, min 1.74 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 3.61% of total time (compiled   71 times, average 2.24 sec, max 2.90 sec, min 1.67 sec)
+[2022.08.03-12.25.22:941][493]LogShaderCompilers: Display: ================================================
+[2022.08.03-12.28.39:737][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.08.03-12.28.39:745][839]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.003287 seconds
+[2022.08.03-12.28.39:756][839]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1
+[2022.08.03-12.28.39:756][839]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Minimal_Default_Auto1283CEED140E12FF057F972913D839BB0.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2022.08.03-12.28.39:757][839]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.026
+[2022.08.03-12.28.39:757][839]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2022.08.03-12.52.36:849][138]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.03-12.52.36:849][138]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.03-12.52.55:457][253]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.03-12.52.55:457][253]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.03-12.53.52:923][433]LogSlate: Window 'New Level' being destroyed
+[2022.08.03-12.53.56:626][433]LogSlate: Window 'Save Content' being destroyed
+[2022.08.03-12.53.57:011][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.08.03-12.53.57:024][433]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2022.08.03-12.53.57:024][433]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Minimal_DefaultA009412B4289DC8B22170F9B3C1579F3.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap'
+[2022.08.03-12.53.57:027][433]LogFileHelpers: No new changes to save!
+[2022.08.03-12.53.57:027][433]LogFileHelpers: Saving map 'Minimal_Default' took 0.022
+[2022.08.03-12.53.57:040][433]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.03-12.53.57:059][433]LightingResults: New page: Lighting Build
+[2022.08.03-12.53.57:059][433]LoadErrors: New page: Loading map: Template_Default.umap
+[2022.08.03-12.53.57:101][433]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.08.03-12.53.57:101][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.03-12.53.57:101][433]MapCheck: New page: Map Check
+[2022.08.03-12.53.57:102][433]LightingResults: New page: Lighting Build
+[2022.08.03-12.53.57:106][433]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.03-12.53.57:108][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.08.03-12.53.57:180][433]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.08.03-12.53.57:180][433]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.03-12.53.57:180][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.03-12.53.57:180][433]LogAIModule: Creating AISystem for world Untitled_1
+[2022.08.03-12.53.57:181][433]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.03-12.53.57:188][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.08.03-12.53.57:188][433]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.03-12.53.57:188][433]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2022.08.03-12.53.57:188][433]LogFileHelpers: Loading map 'Template_Default' took 0.148
+[2022.08.03-12.53.57:191][433]AssetCheck: New page: Asset Save: Minimal_Default
+[2022.08.03-12.53.57:191][433]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2022.08.03-12.54.21:997][981]Cmd: DELETE
+[2022.08.03-12.54.21:997][981]Cmd: ACTOR DELETE
+[2022.08.03-12.54.21:999][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.03-12.54.22:019][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.03-12.54.22:020][981]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.08.03-12.54.22:071][985]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'D:/Unreal/Projects/Udemy/UE5Udemy'
+[2022.08.03-12.55.06:334][138]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2022.08.03-12.56.54:664][799]Cmd: EDIT COPY
+[2022.08.03-12.56.55:037][826]Cmd: EDIT PASTE
+[2022.08.03-12.57.46:274][738]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.08.03-12.58.08:006][ 65]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'D:/Unreal/Projects/Udemy/UE5Udemy'
+[2022.08.03-12.58.26:805][ 65]LogSlate: Window 'Save Level As' being destroyed
+[2022.08.03-12.58.26:865][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.03-12.58.26:879][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.08.03-12.58.26:888][ 65]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.03-12.58.26:888][ 65]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main93CCC59247BF8BEF6A942A922FA50F24.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.03-12.58.26:988][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main_BuiltData" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main_BuiltData.uasset" SILENT=true
+[2022.08.03-12.58.26:990][ 65]LogSavePackage: Moving output files for package: /Game/Main_BuiltData
+[2022.08.03-12.58.26:990][ 65]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main_BuiltDataE30582C7464073E723915EB3D9D80E76.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main_BuiltData.uasset'
+[2022.08.03-12.58.27:145][ 65]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2022.08.03-12.58.27:145][ 65]SourceControl: Error: WarehouseWreckage/Content/Main_BuiltData.uasset
+[2022.08.03-12.58.27:145][ 65]SourceControl: Error: hint: Use -f if you really want to add them.
+[2022.08.03-12.58.27:145][ 65]SourceControl: Error: hint: Turn this message off by running
+[2022.08.03-12.58.27:145][ 65]SourceControl: Error: hint: "git config advice.addIgnoredFile false"
+[2022.08.03-12.58.27:238][ 65]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Main_BuiltData
+[2022.08.03-12.58.27:243][ 65]LogFileHelpers: Saving map 'Main' took 0.432
+[2022.08.03-12.58.27:245][ 65]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.03-12.58.27:245][ 65]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.03-12.58.27:245][ 65]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Main_BuiltData.Main_BuiltData
+[2022.08.03-12.58.27:405][ 67]SourceControl: fatal: /Temp: '/Temp' is outside repository at 'D:/Unreal/Projects/Udemy/UE5Udemy'
+[2022.08.03-12.58.38:690][691]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.08.03-12.58.38:893][691]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.08.03-12.58.39:759][692]SourceControl: fatal: /Script: '/Script' is outside repository at 'D:/Unreal/Projects/Udemy/UE5Udemy'
+[2022.08.03-12.58.49:508][ 65]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.03-12.58.51:538][178]SourceControl: fatal: /Script: '/Script' is outside repository at 'D:/Unreal/Projects/Udemy/UE5Udemy'
+[2022.08.03-12.59.01:693][353]LogSlate: Window 'Project Settings' being destroyed
+[2022.08.03-12.59.01:699][353]LogSlate: Window 'Project Settings' being destroyed
+[2022.08.03-12.59.02:881][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.03-12.59.02:887][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.08.03-12.59.02:894][392]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.03-12.59.02:894][392]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main987CF0A941258B595C59FCAE1EC2E0A8.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.03-12.59.02:897][392]LogFileHelpers: No new changes to save!
+[2022.08.03-12.59.02:922][392]AssetCheck: New page: Asset Save: Main
+[2022.08.03-12.59.02:922][392]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.03-12.59.22:634][445]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.03-12.59.22:634][445]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.03-12.59.22:635][445]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_0
+[2022.08.03-12.59.25:112][572]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.03-12.59.25:112][572]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01
+[2022.08.03-12.59.25:112][572]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack01.SM_Rack01 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_2
+[2022.08.03-12.59.55:910][ 89]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2022.08.03-13.01.04:701][ 15]Cmd: EDIT COPY
+[2022.08.03-13.01.04:839][ 23]Cmd: EDIT COPY
+[2022.08.03-13.01.05:469][ 59]Cmd: EDIT PASTE
+[2022.08.03-13.01.10:014][311]Cmd: EDIT PASTE
+[2022.08.03-13.03.58:541][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.03-13.03.58:548][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.08.03-13.03.58:562][110]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.03-13.03.58:563][110]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main87FF312D4E363276448281BA9F9F5F79.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.03-13.03.58:567][110]LogFileHelpers: No new changes to save!
+[2022.08.03-13.03.58:575][110]AssetCheck: New page: Asset Save: Main
+[2022.08.03-13.03.58:575][110]LogContentValidation: Display: Validating World /Game/Main.Main
