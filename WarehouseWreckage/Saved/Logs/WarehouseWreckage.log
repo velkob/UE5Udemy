@@ -2819,3 +2819,32 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.04-07.52.55:630][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
 [2022.08.04-07.52.55:638][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
 [2022.08.04-07.52.55:672][283]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.08.04-08.02.49:145][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.08.04-08.02.49:148][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Autosaves/Game/Main_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.08.04-08.02.49:172][309]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto7
+[2022.08.04-08.02.49:172][309]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main_Auto70E9B0B544455D1F8BA0C4AA83E491836.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Autosaves/Game/Main_Auto7.umap'
+[2022.08.04-08.02.49:175][309]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.054
+[2022.08.04-08.02.49:175][309]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.054
+[2022.08.04-08.18.11:615][156]LogDerivedDataCache: C:/Users/velko.bonev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.134 and deleted 0 file(s) with total size 0 MiB.
+[2022.08.04-08.20.25:142][554]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.04-08.20.25:142][554]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.04-08.21.12:315][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.04-08.21.12:338][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.08.04-08.21.12:365][193]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.04-08.21.12:365][193]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/Main1C1569A547EDD179807965A98FFB4BA7.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.04-08.21.12:368][193]LogFileHelpers: No new changes to save!
+[2022.08.04-08.21.12:368][193]LogFileHelpers: Saving map 'Main' took 0.054
+[2022.08.04-08.21.12:377][193]AssetCheck: New page: Asset Save: Main
+[2022.08.04-08.21.12:377][193]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.04-08.21.14:930][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.08.04-08.21.15:993][622]BlueprintLog: New page: Compile Main
+[2022.08.04-08.21.16:032][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.08.04-08.21.16:848][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.08.04-08.21.16:982][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.04-08.21.17:005][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.08.04-08.21.17:031][716]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.04-08.21.17:031][716]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Saved/MainB4C3C30C4E974EBB107A8A9B95F1A0B1.tmp' to '../../../../Projects/Udemy/UE5Udemy/WarehouseWreckage/Content/Main.umap'
+[2022.08.04-08.21.17:035][716]LogFileHelpers: No new changes to save!
+[2022.08.04-08.21.17:035][716]LogFileHelpers: Saving map 'Main' took 0.053
+[2022.08.04-08.21.17:045][716]AssetCheck: New page: Asset Save: Main
+[2022.08.04-08.21.17:045][716]LogContentValidation: Display: Validating World /Game/Main.Main
