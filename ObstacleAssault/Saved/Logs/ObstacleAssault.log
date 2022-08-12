@@ -732,3 +732,41 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.12-11.52.23:649][301]AssetCheck: New page: Asset Save: Main
 [2022.08.12-11.52.23:649][301]LogContentValidation: Display: Validating World /Game/Main.Main
 [2022.08.12-11.52.59:181][644]LogDerivedDataCache: C:/Users/velko.bonev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.178 and deleted 0 file(s) with total size 0 MiB.
+[2022.08.12-11.57.58:886][811]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2022.08.12-11.57.58:886][811]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2022.08.12-11.58.04:973][528]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.12-11.58.11:382][279]LogLiveCoding: Display:    Creating library D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_0.lib and object D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_0.exp
+[2022.08.12-11.58.11:455][281]LogClass: /Script/ObstacleAssault Reload.
+[2022.08.12-11.58.11:455][281]LogClass: MovingPlaform Reload.
+[2022.08.12-11.58.11:461][281]LogClass: Could not find existing class MovingPlaform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2022.08.12-11.58.11:495][281]Re-instancing MovingPlaform after reload.
+[2022.08.12-11.58.11:563][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.08.12-11.58.11:752][282]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.08.12-11.58.11:752][282]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.08.12-12.04.50:859][536]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.12-12.04.50:859][536]LogWindowsTextInputMethodSystem: Activated input method: Bulgarian (Bulgaria) - (Keyboard).
+[2022.08.12-12.04.52:403][707]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.12-12.04.57:042][251]LogLiveCoding: Display:    Creating library D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_1.lib and object D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_1.exp
+[2022.08.12-12.04.57:105][253]LogClass: /Script/ObstacleAssault Reload.
+[2022.08.12-12.04.57:105][253]LogClass: MovingPlaform Reload.
+[2022.08.12-12.04.57:105][253]LogClass: Could not find existing class MovingPlaform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2022.08.12-12.04.57:113][253]Re-instancing MovingPlaform after reload.
+[2022.08.12-12.04.57:141][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.08.12-12.04.57:301][254]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.08.12-12.04.57:301][254]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.08.12-12.05.59:087][616]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.12-12.05.59:087][616]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.08.12-12.06.01:244][848]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.12-12.06.05:589][363]LogLiveCoding: Display:    Creating library D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_2.lib and object D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_2.exp
+[2022.08.12-12.06.05:684][368]LogClass: /Script/ObstacleAssault Reload.
+[2022.08.12-12.06.05:684][368]LogClass: MovingPlaform Reload.
+[2022.08.12-12.06.05:684][368]LogClass: Could not find existing class MovingPlaform in package /Script/ObstacleAssault for reload, assuming new or modified class
+[2022.08.12-12.06.05:692][368]Re-instancing MovingPlaform after reload.
+[2022.08.12-12.06.05:719][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.08.12-12.06.05:814][369]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.08.12-12.06.05:814][369]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.08.12-12.06.25:271][146]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.08.12-12.06.29:756][676]LogLiveCoding: Display:    Creating library D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_3.lib and object D:\Unreal\Projects\Udemy\UE5Udemy\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_3.exp
+[2022.08.12-12.06.30:070][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.08.12-12.06.30:086][679]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2022.08.12-12.06.30:087][679]LogLiveCoding: Display: Live coding succeeded
