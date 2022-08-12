@@ -23,6 +23,9 @@ void AMovingPlaform::BeginPlay()
 void AMovingPlaform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
+	MyVector.Y++;
+	
+	SetActorLocation(MyVector);
 }
 
