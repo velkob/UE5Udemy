@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal\\projects\\udemy\\ue5udemy\\obstacleassault\\source\\obstacleassault\\movingplaform.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal\\projects\\udemy\\ue5udemy\\obstacleassault\\intermediate\\build\\win64\\obstacleassaulteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal\\projects\\udemy\\ue5udemy\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\development\\obstacleassault\\definitions.obstacleassault.h",
+            "d:\\unreal\\projects\\udemy\\ue5udemy\\obstacleassault\\source\\obstacleassault\\movingplaform.h",
+            "d:\\unreal\\projects\\udemy\\ue5udemy\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\movingplaform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
