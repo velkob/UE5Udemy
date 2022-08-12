@@ -15,8 +15,8 @@ AMovingPlaform::AMovingPlaform()
 void AMovingPlaform::BeginPlay()
 {
 	Super::BeginPlay();
-
-	MyVector.X = MyX;
+	
+	SetActorLocation(MyVector);
 }
 
 // Called every frame
