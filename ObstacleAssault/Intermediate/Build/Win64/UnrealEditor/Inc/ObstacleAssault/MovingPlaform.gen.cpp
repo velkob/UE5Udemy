@@ -33,6 +33,30 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 #endif
 		static const UECodeGen_Private::FIntPropertyParams NewProp_MyInt;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InputA_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_InputA;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InputB_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_InputB;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_APlusB_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_APlusB;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InputFloatA_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_InputFloatA;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InputFloatB_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_InputFloatB;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_APlusBFloat_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_APlusBFloat;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MyFloat_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_MyFloat;
@@ -63,6 +87,48 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyInt = { "MyInt", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, MyInt), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyInt_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyInt_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputA_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputA = { "InputA", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, InputA), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputA_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputA_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputB_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputB = { "InputB", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, InputB), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputB_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputB_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusB_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusB = { "APlusB", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, APlusB), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusB_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusB_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatA_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatA = { "InputFloatA", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, InputFloatA), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatA_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatA_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatB_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatB = { "InputFloatB", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, InputFloatB), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatB_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatB_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusBFloat_MetaData[] = {
+		{ "Category", "MovingPlaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusBFloat = { "APlusBFloat", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, APlusBFloat), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusBFloat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusBFloat_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyFloat_MetaData[] = {
 		{ "Category", "MovingPlaform" },
 		{ "ModuleRelativePath", "MovingPlaform.h" },
@@ -82,6 +148,12 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyBoolean = { "MyBoolean", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMovingPlaform), &Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyBoolean_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyBoolean_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyBoolean_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlaform_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyInt,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputA,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputB,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusB,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatA,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_InputFloatB,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_APlusBFloat,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyFloat,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MyBoolean,
 	};
@@ -121,9 +193,9 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 1792453472U) },
+		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 3067264717U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_639597568(TEXT("/Script/ObstacleAssault"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_2057202337(TEXT("/Script/ObstacleAssault"),
 		Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

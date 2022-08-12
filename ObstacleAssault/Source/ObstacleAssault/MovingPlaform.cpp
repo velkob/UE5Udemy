@@ -16,6 +16,10 @@ void AMovingPlaform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	MyInt = 10;
+
+	APlusB = InputA + InputB;
+	APlusBFloat = InputFloatA + InputFloatB;
 }
 
 // Called every frame
