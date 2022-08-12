@@ -15,11 +15,8 @@ AMovingPlaform::AMovingPlaform()
 void AMovingPlaform::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	MyInt = 10;
 
-	APlusB = InputA + InputB;
-	APlusBFloat = InputFloatA + InputFloatB;
+	MyVector.X = MyX;
 }
 
 // Called every frame
