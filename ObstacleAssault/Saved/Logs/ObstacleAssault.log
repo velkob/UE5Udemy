@@ -3359,3 +3359,363 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.13-11.52.43:442][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
 [2022.08.13-11.52.43:466][698]LogPlayLevel: Display: Destroying online subsystem :Context_51
 [2022.08.13-11.52.59:400][939]LogDerivedDataCache: C:/Users/velko.bonev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.475 and deleted 0 file(s) with total size 0 MiB.
+[2022.08.13-11.53.50:138][200]Cmd: DELETE
+[2022.08.13-11.53.50:139][200]Cmd: ACTOR DELETE
+[2022.08.13-11.53.50:143][200]LogEditorActor: Deleted Actor: MovingPlaform
+[2022.08.13-11.53.50:158][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.08.13-11.53.50:164][200]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.08.13-11.54.20:232][697]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.08.13-11.54.20:269][697]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.08.13-11.54.31:258][810]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform
+[2022.08.13-11.54.31:258][810]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-11.54.32:201][810]LogBlueprintEditor: Perf: 0.9 total seconds to load all 8 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.08.13-11.54.32:201][810]LogBlueprintEditor: Perf: 0.7 seconds loading: /Game/LearningKit_Robots/Blueprints/Robots/Robot_MASTER/RobotFunctionLib
+[2022.08.13-11.54.32:429][810]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.08.13-11.54.35:407][106]LogSlate: Window 'BP_MovingPlatform' being destroyed
+[2022.08.13-11.54.37:125][301]LogSlate: Window 'Content Browser' being destroyed
+[2022.08.13-11.54.37:129][301]LogSlate: Window 'Content Browser' being destroyed
+[2022.08.13-11.54.50:784][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_MovingPlatform.uasset" SILENT=true
+[2022.08.13-11.54.50:786][903]LogSavePackage: Moving output files for package: /Game/BP_MovingPlatform
+[2022.08.13-11.54.50:786][903]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_MovingPlatform3415E13C45B5B38DDC662084E0412548.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_MovingPlatform.uasset'
+[2022.08.13-11.54.50:793][903]AssetCheck: New page: Asset Save: BP_MovingPlatform
+[2022.08.13-11.54.50:793][903]LogContentValidation: Display: Validating Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform
+[2022.08.13-11.58.37:388][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MovingPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_MovingPlatform.uasset" SILENT=true
+[2022.08.13-11.58.37:390][349]LogSavePackage: Moving output files for package: /Game/BP_MovingPlatform
+[2022.08.13-11.58.37:390][349]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_MovingPlatform454A500A4BFC4E706B76BB9B789497D5.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_MovingPlatform.uasset'
+[2022.08.13-11.58.37:403][349]AssetCheck: New page: Asset Save: BP_MovingPlatform
+[2022.08.13-11.58.37:403][349]LogContentValidation: Display: Validating Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform
+[2022.08.13-11.58.48:050][587]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.08.13-11.59.01:322][692]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.01:322][692]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.01:323][692]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_0
+[2022.08.13-11.59.01:323][692]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_0
+[2022.08.13-11.59.02:534][749]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.02:534][749]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.02:535][749]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_1
+[2022.08.13-11.59.02:536][749]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_1
+[2022.08.13-11.59.05:375][ 24]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-11.59.05:379][ 24]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.08.13-11.59.05:380][ 24]LogPlayLevel: [PlayLevel] Compiling BP_MovingPlatform before play...
+[2022.08.13-11.59.05:425][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.08.13-11.59.05:426][ 24]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2022.08.13-11.59.05:426][ 24]PIE: New page: PIE session: Main (Aug 13, 2022, 5:59:05 PM)
+[2022.08.13-11.59.05:428][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.13-11.59.05:443][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015294s)
+[2022.08.13-11.59.05:443][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.015379s)
+[2022.08.13-11.59.05:443][ 24]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-11.59.05:443][ 24]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-11.59.05:444][ 24]LogAIModule: Creating AISystem for world Main
+[2022.08.13-11.59.05:444][ 24]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2022.08.13-11.59.05:462][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.08.13-11.59.05:463][ 24]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-11.59.05:463][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.08.13-11.59.05:463][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-11.59.05:463][ 24]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-11.59.05:463][ 24]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-11.59.05:463][ 24]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-11.59.05:464][ 24]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-11.59.05:650][ 24]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Plantronics Blackwire 3220 Series)
+[2022.08.13-11.59.05:650][ 24]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-11.59.05:650][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-11.59.05:650][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-11.59.05:651][ 24]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2022.08.13-11.59.05:651][ 24]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2022.08.13-11.59.05:652][ 24]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2022.08.13-11.59.05:652][ 24]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2022.08.13-11.59.05:652][ 24]LogInit: FAudioDevice initialized.
+[2022.08.13-11.59.05:652][ 24]LogAudio: Display: Audio Device (ID: 46) registered with world 'Main'.
+[2022.08.13-11.59.05:663][ 24]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.08.13-11.59.05:669][ 24]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.13-14.59.05
+[2022.08.13-11.59.06:667][ 24]LogWorld: Bringing up level for play took: 1.003385
+[2022.08.13-11.59.06:668][ 24]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2022.08.13-11.59.06:669][ 24]PIE: Server logged in
+[2022.08.13-11.59.06:669][ 24]PIE: Play in editor total start time 1.292 seconds.
+[2022.08.13-11.59.12:513][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-11.59.12:513][222]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.13-11.59.12:513][222]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-11.59.12:514][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-11.59.12:534][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-11.59.12:537][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-11.59.12:558][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-11.59.12:558][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2022.08.13-11.59.12:559][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2022.08.13-11.59.12:565][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.08.13-11.59.12:586][223]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.08.13-11.59.16:291][468]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.16:291][468]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.16:292][468]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2022.08.13-11.59.16:292][468]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2022.08.13-11.59.18:905][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.18:905][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_MovingPlatform.BP_MovingPlatform_C
+[2022.08.13-11.59.18:906][611]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2022.08.13-11.59.18:907][611]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2022.08.13-11.59.20:322][771]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-11.59.20:325][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.13-11.59.20:325][771]PIE: New page: PIE session: Main (Aug 13, 2022, 5:59:20 PM)
+[2022.08.13-11.59.20:325][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.13-11.59.20:341][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015453s)
+[2022.08.13-11.59.20:341][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.015513s)
+[2022.08.13-11.59.20:341][771]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-11.59.20:341][771]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-11.59.20:341][771]LogAIModule: Creating AISystem for world Main
+[2022.08.13-11.59.20:341][771]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2022.08.13-11.59.20:362][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.13-11.59.20:363][771]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2022.08.13-11.59.20:363][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-11.59.20:363][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-11.59.20:363][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-11.59.20:364][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-11.59.20:364][771]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.08.13-11.59.20:364][771]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-11.59.20:364][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.08.13-11.59.20:364][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-11.59.20:364][771]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-11.59.20:364][771]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-11.59.20:364][771]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-11.59.20:365][771]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-11.59.20:549][771]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Plantronics Blackwire 3220 Series)
+[2022.08.13-11.59.20:549][771]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-11.59.20:549][771]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-11.59.20:549][771]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-11.59.20:550][771]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2022.08.13-11.59.20:550][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2022.08.13-11.59.20:550][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2022.08.13-11.59.20:551][771]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2022.08.13-11.59.20:551][771]LogInit: FAudioDevice initialized.
+[2022.08.13-11.59.20:551][771]LogAudio: Display: Audio Device (ID: 47) registered with world 'Main'.
+[2022.08.13-11.59.20:564][771]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.08.13-11.59.20:568][771]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.13-14.59.20
+[2022.08.13-11.59.21:572][771]LogWorld: Bringing up level for play took: 1.008122
+[2022.08.13-11.59.21:573][771]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2022.08.13-11.59.21:574][771]PIE: Server logged in
+[2022.08.13-11.59.21:575][771]PIE: Play in editor total start time 1.25 seconds.
+[2022.08.13-11.59.47:173][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-11.59.47:173][754]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.13-11.59.47:173][754]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-11.59.47:174][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-11.59.47:187][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-11.59.47:191][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-11.59.47:211][754]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-11.59.47:211][754]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2022.08.13-11.59.47:212][754]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2022.08.13-11.59.47:214][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-11.59.47:217][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.08.13-11.59.47:245][755]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.08.13-12.00.19:507][740]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.00.19:507][740]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.00.29:029][602]LogContentBrowser: Attempting asset rename: BP_MovingPlatform -> BP_VerticalPlatform
+[2022.08.13-12.00.29:122][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.BP_VerticalPlatform:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.SKEL_BP_VerticalPlatform_C' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.BP_VerticalPlatform_C' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.BP_VerticalPlatform:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.BP_VerticalPlatform:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.BP_VerticalPlatform:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.SKEL_BP_VerticalPlatform_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.SKEL_BP_VerticalPlatform_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.SKEL_BP_VerticalPlatform_C:ReceiveTick' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:128][602]LogMetaData: Removing '/Game/BP_VerticalPlatform.SKEL_BP_VerticalPlatform_C:UserConstructionScript' ref from Metadata '/Game/BP_MovingPlatform.PackageMetaData'
+[2022.08.13-12.00.29:250][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_VerticalPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_VerticalPlatform.uasset" SILENT=true
+[2022.08.13-12.00.29:253][602]LogSavePackage: Moving output files for package: /Game/BP_VerticalPlatform
+[2022.08.13-12.00.29:253][602]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_VerticalPlatformF8071DAC4CB1D2666C2A75AC5195CFA7.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_VerticalPlatform.uasset'
+[2022.08.13-12.00.29:340][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.08.13-12.00.29:361][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.13-12.00.29:380][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.13-12.00.29:390][602]AssetCheck: New page: Asset Save: BP_VerticalPlatform
+[2022.08.13-12.00.29:390][602]LogContentValidation: Display: Validating Blueprint /Game/BP_VerticalPlatform.BP_VerticalPlatform
+[2022.08.13-12.00.32:742][900]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.00.32:742][900]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.00.33:776][ 23]LogContentBrowser: Deferred new asset file creation: BP_VerticalPlatform1
+[2022.08.13-12.00.33:806][ 23]LogContentBrowser: Creating deferred item: BP_VerticalPlatform1
+[2022.08.13-12.00.33:844][ 24]LogContentBrowser: Renaming the item being created (Deferred Item: BP_VerticalPlatform1).
+[2022.08.13-12.00.42:224][ 24]LogContentBrowser: Attempting asset rename: BP_VerticalPlatform1 -> BP_HorizontalPlatform
+[2022.08.13-12.00.42:250][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.13-12.00.42:255][ 24]LogContentBrowser: End creating deferred item BP_VerticalPlatform1
+[2022.08.13-12.00.44:884][274]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform
+[2022.08.13-12.00.44:884][274]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-12.01.04:622][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_HorizontalPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_HorizontalPlatform.uasset" SILENT=true
+[2022.08.13-12.01.04:624][577]LogSavePackage: Moving output files for package: /Game/BP_HorizontalPlatform
+[2022.08.13-12.01.04:624][577]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_HorizontalPlatformB77C937948AAB76BFF607493D4BA7DB6.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_HorizontalPlatform.uasset'
+[2022.08.13-12.01.04:631][577]AssetCheck: New page: Asset Save: BP_HorizontalPlatform
+[2022.08.13-12.01.04:632][577]LogContentValidation: Display: Validating Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform
+[2022.08.13-12.01.15:399][763]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.01.15:399][763]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.08.13-12.01.16:136][849]LogContentBrowser: Deferred new asset file creation: BP_HorizontalPlatform1
+[2022.08.13-12.01.16:141][849]LogContentBrowser: Creating deferred item: BP_HorizontalPlatform1
+[2022.08.13-12.01.16:148][850]LogContentBrowser: Renaming the item being created (Deferred Item: BP_HorizontalPlatform1).
+[2022.08.13-12.01.27:076][858]LogContentBrowser: Attempting asset rename: BP_HorizontalPlatform1 -> BP_PillarPlatform
+[2022.08.13-12.01.27:102][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.08.13-12.01.27:106][858]LogContentBrowser: End creating deferred item BP_HorizontalPlatform1
+[2022.08.13-12.01.28:792][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
+[2022.08.13-12.01.28:792][  7]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-12.01.38:477][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.13-12.01.38:531][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.13-12.01.38:555][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.08.13-12.01.38:608][ 86]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.13-12.01.38:609][ 86]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/Main2FF07F404A6D711FE6C9F0B767830F20.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap'
+[2022.08.13-12.01.38:613][ 86]LogFileHelpers: Saving map 'Main' took 0.082
+[2022.08.13-12.01.38:666][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PillarPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset" SILENT=true
+[2022.08.13-12.01.38:668][ 86]LogSavePackage: Moving output files for package: /Game/BP_PillarPlatform
+[2022.08.13-12.01.38:668][ 86]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_PillarPlatform11BAA8904D14F3B9779A38AFD6495B26.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset'
+[2022.08.13-12.01.38:679][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.13-12.01.38:679][ 86]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.13-12.01.38:679][ 86]LogContentValidation: Display: Validating Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
+[2022.08.13-12.02.43:243][539]LogEditorTransaction: Undo Modify Component(s)
+[2022.08.13-12.04.20:593][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.08.13-12.04.20:675][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PillarPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset" SILENT=true
+[2022.08.13-12.04.20:678][818]LogSavePackage: Moving output files for package: /Game/BP_PillarPlatform
+[2022.08.13-12.04.20:678][818]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_PillarPlatform3568C87E464FD05964A3A88F2FE421D9.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset'
+[2022.08.13-12.04.20:688][818]AssetCheck: New page: Asset Save: BP_PillarPlatform
+[2022.08.13-12.04.20:688][818]LogContentValidation: Display: Validating Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
+[2022.08.13-12.04.23:657][127]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.08.13-12.04.37:340][353]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PillarPlatform.BP_PillarPlatform_C
+[2022.08.13-12.04.37:340][353]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PillarPlatform.BP_PillarPlatform_C
+[2022.08.13-12.04.37:342][353]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform as actor: BP_PillarPlatform_C /Game/Main.Main:PersistentLevel.BP_PillarPlatform_C_0
+[2022.08.13-12.04.37:343][353]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform as actor: BP_PillarPlatform_C /Game/Main.Main:PersistentLevel.BP_PillarPlatform_C_0
+[2022.08.13-12.04.38:739][416]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PillarPlatform.BP_PillarPlatform_C
+[2022.08.13-12.04.38:739][416]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_PillarPlatform.BP_PillarPlatform_C
+[2022.08.13-12.04.38:741][416]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform as actor: BP_PillarPlatform_C /Game/Main.Main:PersistentLevel.BP_PillarPlatform_C_1
+[2022.08.13-12.04.38:743][416]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform as actor: BP_PillarPlatform_C /Game/Main.Main:PersistentLevel.BP_PillarPlatform_C_1
+[2022.08.13-12.04.47:487][154]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_HorizontalPlatform.BP_HorizontalPlatform_C
+[2022.08.13-12.04.47:487][154]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_HorizontalPlatform.BP_HorizontalPlatform_C
+[2022.08.13-12.04.47:488][154]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform as actor: BP_HorizontalPlatform_C /Game/Main.Main:PersistentLevel.BP_HorizontalPlatform_C_0
+[2022.08.13-12.04.47:489][154]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform as actor: BP_HorizontalPlatform_C /Game/Main.Main:PersistentLevel.BP_HorizontalPlatform_C_0
+[2022.08.13-12.04.48:512][207]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_HorizontalPlatform.BP_HorizontalPlatform_C
+[2022.08.13-12.04.48:512][207]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_HorizontalPlatform.BP_HorizontalPlatform_C
+[2022.08.13-12.04.48:514][207]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform as actor: BP_HorizontalPlatform_C /Game/Main.Main:PersistentLevel.BP_HorizontalPlatform_C_1
+[2022.08.13-12.04.48:514][207]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_HorizontalPlatform.BP_HorizontalPlatform as actor: BP_HorizontalPlatform_C /Game/Main.Main:PersistentLevel.BP_HorizontalPlatform_C_1
+[2022.08.13-12.04.49:422][309]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-12.04.49:426][309]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.08.13-12.04.49:427][309]LogPlayLevel: [PlayLevel] Compiling BP_HorizontalPlatform before play...
+[2022.08.13-12.04.49:447][309]LogPlayLevel: [PlayLevel] Compiling BP_PillarPlatform before play...
+[2022.08.13-12.04.49:476][309]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2022.08.13-12.04.49:527][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.08.13-12.04.49:528][309]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (3 blueprints)
+[2022.08.13-12.04.49:528][309]PIE: New page: PIE session: Main (Aug 13, 2022, 6:04:49 PM)
+[2022.08.13-12.04.49:528][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.13-12.04.49:543][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014969s)
+[2022.08.13-12.04.49:543][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.015021s)
+[2022.08.13-12.04.49:543][309]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-12.04.49:544][309]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-12.04.49:544][309]LogAIModule: Creating AISystem for world Main
+[2022.08.13-12.04.49:544][309]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2022.08.13-12.04.49:569][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.08.13-12.04.49:570][309]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-12.04.49:570][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.08.13-12.04.49:570][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-12.04.49:570][309]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-12.04.49:570][309]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-12.04.49:570][309]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-12.04.49:571][309]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-12.04.49:756][309]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Plantronics Blackwire 3220 Series)
+[2022.08.13-12.04.49:756][309]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-12.04.49:756][309]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-12.04.49:756][309]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-12.04.49:756][309]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2022.08.13-12.04.49:756][309]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2022.08.13-12.04.49:757][309]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2022.08.13-12.04.49:757][309]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2022.08.13-12.04.49:757][309]LogInit: FAudioDevice initialized.
+[2022.08.13-12.04.49:757][309]LogAudio: Display: Audio Device (ID: 48) registered with world 'Main'.
+[2022.08.13-12.04.49:765][309]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.08.13-12.04.49:770][309]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.13-15.04.49
+[2022.08.13-12.04.50:754][309]LogWorld: Bringing up level for play took: 0.989137
+[2022.08.13-12.04.50:756][309]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2022.08.13-12.04.50:771][309]PIE: Server logged in
+[2022.08.13-12.04.50:771][309]PIE: Play in editor total start time 1.346 seconds.
+[2022.08.13-12.05.46:544][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-12.05.46:544][356]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.13-12.05.46:544][356]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-12.05.46:545][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-12.05.46:555][356]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-12.05.46:558][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-12.05.46:582][356]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-12.05.46:583][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2022.08.13-12.05.46:584][356]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2022.08.13-12.05.46:591][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.08.13-12.05.46:626][357]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2022.08.13-12.06.29:775][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.08.13-12.06.29:821][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.13-12.06.29:845][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.08.13-12.06.29:900][ 67]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.13-12.06.29:900][ 67]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/Main6FBC8E49408DA866F69B40889BF17E31.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap'
+[2022.08.13-12.06.29:904][ 67]LogFileHelpers: Saving map 'Main' took 0.084
+[2022.08.13-12.06.29:913][ 67]AssetCheck: New page: Asset Save: Main
+[2022.08.13-12.06.29:913][ 67]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.13-12.06.31:934][286]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-12.06.31:937][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.13-12.06.31:937][286]PIE: New page: PIE session: Main (Aug 13, 2022, 6:06:31 PM)
+[2022.08.13-12.06.31:937][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.08.13-12.06.31:952][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015412s)
+[2022.08.13-12.06.31:952][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.015467s)
+[2022.08.13-12.06.31:952][286]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-12.06.31:952][286]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.08.13-12.06.31:953][286]LogAIModule: Creating AISystem for world Main
+[2022.08.13-12.06.31:953][286]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2022.08.13-12.06.31:977][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2022.08.13-12.06.31:978][286]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-12.06.31:978][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.08.13-12.06.31:978][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-12.06.31:978][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-12.06.31:978][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-12.06.31:978][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-12.06.31:979][286]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-12.06.32:162][286]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Plantronics Blackwire 3220 Series)
+[2022.08.13-12.06.32:162][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-12.06.32:162][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-12.06.32:162][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-12.06.32:163][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2022.08.13-12.06.32:163][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2022.08.13-12.06.32:164][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2022.08.13-12.06.32:164][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2022.08.13-12.06.32:164][286]LogInit: FAudioDevice initialized.
+[2022.08.13-12.06.32:164][286]LogAudio: Display: Audio Device (ID: 49) registered with world 'Main'.
+[2022.08.13-12.06.32:170][286]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.08.13-12.06.32:175][286]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2022.08.13-15.06.32
+[2022.08.13-12.06.33:162][286]LogWorld: Bringing up level for play took: 0.991570
+[2022.08.13-12.06.33:163][286]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2022.08.13-12.06.33:164][286]PIE: Server logged in
+[2022.08.13-12.06.33:164][286]PIE: Play in editor total start time 1.228 seconds.
+[2022.08.13-12.07.11:552][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-12.07.11:552][899]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.08.13-12.07.11:552][899]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-12.07.11:553][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-12.07.11:572][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-12.07.11:578][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-12.07.11:606][899]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-12.07.11:607][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2022.08.13-12.07.11:608][899]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2022.08.13-12.07.11:611][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-12.07.11:615][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.08.13-12.07.11:637][900]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.08.13-12.07.50:678][135]BlueprintLog: New page: Compile BP_PillarPlatform
+[2022.08.13-12.07.50:714][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.08.13-12.07.52:704][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.08.13-12.07.52:759][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.13-12.07.52:787][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.08.13-12.07.52:843][350]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.13-12.07.52:843][350]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/Main577357534E13E94C30C22F855C801261.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap'
+[2022.08.13-12.07.52:847][350]LogFileHelpers: Saving map 'Main' took 0.089
+[2022.08.13-12.07.52:901][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PillarPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset" SILENT=true
+[2022.08.13-12.07.52:904][350]LogSavePackage: Moving output files for package: /Game/BP_PillarPlatform
+[2022.08.13-12.07.52:904][350]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_PillarPlatformA4354D9F4DBF5A7650DF8B864FC9C4E4.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset'
+[2022.08.13-12.07.52:913][350]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.13-12.07.52:913][350]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.13-12.07.52:913][350]LogContentValidation: Display: Validating Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
