@@ -22,4 +22,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, Category="Moving Plaform")
+	FVector PlatformVelocity = FVector(100, 0, 0);
+
+	UPROPERTY(EditAnywhere, Category="Moving Plaform")
+	float MoveDistance = 100;
+
+	FVector StartLocation;
 };

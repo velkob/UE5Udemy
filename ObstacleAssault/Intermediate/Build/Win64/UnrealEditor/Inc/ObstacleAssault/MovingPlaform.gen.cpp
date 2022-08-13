@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 	OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AMovingPlaform();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_ObstacleAssault();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void AMovingPlaform::StaticRegisterNativesAMovingPlaform()
 	{
@@ -28,6 +29,15 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlatformVelocity_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_PlatformVelocity;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveDistance_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_MoveDistance;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -41,6 +51,24 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		{ "ModuleRelativePath", "MovingPlaform.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData[] = {
+		{ "Category", "Moving Plaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity = { "PlatformVelocity", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, PlatformVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData[] = {
+		{ "Category", "Moving Plaform" },
+		{ "ModuleRelativePath", "MovingPlaform.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance = { "MoveDistance", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, MoveDistance), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlaform_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMovingPlaform_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMovingPlaform>::IsAbstract,
 	};
@@ -50,11 +78,11 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AMovingPlaform_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::Class_MetaDataParams))
@@ -77,9 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 2859054991U) },
+		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 953925676U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_1379671167(TEXT("/Script/ObstacleAssault"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_4034062441(TEXT("/Script/ObstacleAssault"),
 		Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
