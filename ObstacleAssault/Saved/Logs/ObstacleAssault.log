@@ -3719,3 +3719,17 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.13-12.07.52:913][350]AssetCheck: New page: Asset Save: multiple assets
 [2022.08.13-12.07.52:913][350]LogContentValidation: Display: Validating World /Game/Main.Main
 [2022.08.13-12.07.52:913][350]LogContentValidation: Display: Validating Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
+[2022.08.13-12.10.03:434][384]BlueprintLog: New page: Compile BP_PillarPlatform
+[2022.08.13-12.10.03:487][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.08.13-12.10.05:703][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.08.13-12.10.05:761][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.08.13-12.10.05:789][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.08.13-12.10.05:844][493]LogSavePackage: Moving output files for package: /Game/Main
+[2022.08.13-12.10.05:845][493]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/MainFF933C114E615D48E6EDB080DA49F7B1.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/Main.umap'
+[2022.08.13-12.10.05:849][493]LogFileHelpers: Saving map 'Main' took 0.088
+[2022.08.13-12.10.05:859][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PillarPlatform" FILE="../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset" SILENT=true
+[2022.08.13-12.10.05:862][493]LogSavePackage: Moving output files for package: /Game/BP_PillarPlatform
+[2022.08.13-12.10.05:862][493]LogSavePackage: Moving '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Saved/BP_PillarPlatform2E3178EC448D827437C5FE90C6D1517C.tmp' to '../../../../Projects/Udemy/UE5Udemy/ObstacleAssault/Content/BP_PillarPlatform.uasset'
+[2022.08.13-12.10.05:872][493]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.13-12.10.05:872][493]LogContentValidation: Display: Validating World /Game/Main.Main
+[2022.08.13-12.10.05:872][493]LogContentValidation: Display: Validating Blueprint /Game/BP_PillarPlatform.BP_PillarPlatform
