@@ -57,14 +57,14 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		{ "ModuleRelativePath", "MovingPlaform.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity = { "PlatformVelocity", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, PlatformVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity = { "PlatformVelocity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, PlatformVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData[] = {
 		{ "Category", "Moving Plaform" },
 		{ "ModuleRelativePath", "MovingPlaform.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance = { "MoveDistance", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, MoveDistance), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance = { "MoveDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlaform, MoveDistance), METADATA_PARAMS(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlaform_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_PlatformVelocity,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlaform_Statics::NewProp_MoveDistance,
@@ -105,9 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlaform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 953925676U) },
+		{ Z_Construct_UClass_AMovingPlaform, AMovingPlaform::StaticClass, TEXT("AMovingPlaform"), &Z_Registration_Info_UClass_AMovingPlaform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlaform), 2072252340U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_4034062441(TEXT("/Script/ObstacleAssault"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_330038519(TEXT("/Script/ObstacleAssault"),
 		Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ObstacleAssault_Source_ObstacleAssault_MovingPlaform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
