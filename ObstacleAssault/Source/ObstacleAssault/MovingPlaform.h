@@ -27,12 +27,18 @@ public:
 private:
 	void MovePlatform(float DeltaTime);
 	void RotatePlatform(float DeltaTime);
-	
-	UPROPERTY(EditAnywhere, Category="Moving Plaform")
+
+	bool ShouldPlatformReturn() const;
+	float GetDistanceMoved() const;
+
+	UPROPERTY(EditAnywhere, Category="Moving")
 	FVector PlatformVelocity = FVector(100, 0, 0);
 
-	UPROPERTY(EditAnywhere, Category="Moving Plaform")
+	UPROPERTY(EditAnywhere, Category="Moving")
 	float MoveDistance = 100;
+
+	UPROPERTY(EditAnywhere, Category="Rotation")
+	FRotator RotationVelocity;
 
 	FVector StartLocation;
 
